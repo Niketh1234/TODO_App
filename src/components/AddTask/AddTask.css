@@ -1,0 +1,65 @@
+.mainContainer {
+  margin: 20px;
+  padding: 20px;
+  padding-left: 50px;
+  border: 2px solid aqua;
+  height: 75%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.heading {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  color: aqua;
+  margin: 15px;
+  margin-left: 0;
+}
+
+label {
+  margin: 15px;
+  margin-left: 0px;
+  color: aqua;
+  font-weight: 500;
+}
+
+input {
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 13px;
+  width: 70%;
+}
+
+textarea {
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 13px;
+  width: 70%;
+  height: 70px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: aqua;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.submitButton {
+  margin-right: 10px;
+  background-color: black;
+  color: aqua;
+  border: 2px solid aqua;
+  transition: 0.4s all;
+  margin-top: 15px;
+}
+
+.submitButton:hover {
+  background-color: aqua;
+  color: black;
+  border: 2px solid aqua;
+}
+
+

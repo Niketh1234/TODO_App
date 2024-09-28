@@ -1,0 +1,29 @@
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aqua;
+  font-weight: 500;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 15px;
+}
+.appHeader {
+  font-size: large;
+}
+.appHeader:hover {
+  cursor: pointer;
+}
+.navButton {
+  margin-right: 10px;
+  background-color: black;
+  color: aqua;
+  border: 2px solid aqua;
+  transition: 0.4s all;
+}
+
+.navButton:hover {
+  background-color: aqua;
+  color: black;
+  border: 2px solid aqua;
+}

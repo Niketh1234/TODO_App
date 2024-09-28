@@ -1,0 +1,35 @@
+.toastContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  padding: 10px;
+  animation: slideIn 0.5s, slideOut 0.5s 1.5s;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  color: black;
+  font-weight: 400;
+  background-color: aqua;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
